@@ -2,7 +2,7 @@ import ComputationalGraphics from "../assets/Projects-images/ComputationalGraphi
 import shop from "../assets/Projects-images/shop.png";
 import auth from "../assets/Projects-images/login.png";
 import chatbot from "../assets/Projects-images/chatbot.png";
-import tinyurl from "../assets/Projects-images/tinyurl.png";
+import tinyurl from "../assets/Projects-images/TinyUrl.png";
 import basicSpring from "../assets/Projects-images/basicSpring.png";
 import financialManagement from "../assets/Projects-images/financial.png";
 
