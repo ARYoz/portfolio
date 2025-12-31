@@ -1,0 +1,36 @@
+.page {
+  padding: 14px 0;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 34px;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

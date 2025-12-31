@@ -1,0 +1,39 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.info {
+  font-weight: 500;
+  color: #374151;
+}
+
+/* כפתור כללי */
+.wrap button {
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #111827;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* hover */
+.wrap button:hover:not(:disabled) {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+/* disabled */
+.wrap button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: #f3f4f6;
+  color: #6b7280;
+}
