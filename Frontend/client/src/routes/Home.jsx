@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/profile.png";
 import {
   FaGithub,
   FaLinkedin,
